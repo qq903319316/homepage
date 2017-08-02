@@ -1,6 +1,38 @@
 // 也许还能在网上看到你的消息
 $(function(){
-    //console.log(document);
+
+    //    第一屏hover
+    $(".ultwo-one li").hover(function(){
+        var index=$(this).index();
+        $(".ultwo-two li").eq(index).css({transform:"scale(1)"});
+    },function(){
+        var index=$(this).index();
+        $(".ultwo-two li").eq(index).css({transform:"scale(0)"});
+    });
+    $(window).resize(function(){
+        //    判断屏幕分辨率
+        function screenwidth(){
+            if (screen.width <= 640){
+                //console.log("现在是小于640");
+                $(".zhu-tops li:nth-child(1) a").text("简介嘿");
+                $(".zhu-tops li:nth-child(2) a").text("技能嘿");
+                $(".zhu-tops li:nth-child(3) a").text("作品嘿");
+                $(".zhu-tops li:nth-child(4) a").text("移动端");
+                $(".zhu-tops li:nth-child(5) a").text("轮播图");
+                $(".zhu-tops li:nth-child(6) a").text("结尾页");
+            }else {
+                //console.log("现在是大于640");
+                $(".zhu-tops li:nth-child(1) a").text("个人简述");
+                $(".zhu-tops li:nth-child(2) a").text("薄技在身");
+                $(".zhu-tops li:nth-child(3) a").text("即兴之作");
+                $(".zhu-tops li:nth-child(4) a").text("手机终端");
+                $(".zhu-tops li:nth-child(5) a").text("落笔成蝇");
+                $(".zhu-tops li:nth-child(6) a").text("信而有征");
+            }
+        }(screenwidth());
+    });
+
+
     // 鼠标跟随样式
     function shu_biao(){
         $('.button-shu').bind('mousedown touchstart',function(e) {
@@ -73,7 +105,7 @@ $(function(){
                 $(this).hide();
             });
             $(".sp-work>ul").animate({left:"0"},400,function(){
-                $(this).animate({height:"80%"},500);
+                $(this).animate({height:"90%"},500);
             });
 
         });
@@ -380,23 +412,6 @@ $(function(){
                 }
             }
         });//fullPage闭合
-
-    //    第一屏hover
-        $(".ultwo-one li").hover(function(){
-            var index=$(this).index();
-            $(".ultwo-two li").eq(index).css({transform:"scale(1)"});
-        },function(){
-            var index=$(this).index();
-            $(".ultwo-two li").eq(index).css({transform:"scale(0)"});
-        })
-
-
-
-
-
-
-
-
 
     });//click闭合
 

@@ -31,7 +31,7 @@
 /*闪屏页开始----------------*/
 .sping-box{
     width:100%;height:100%;position: absolute;left:0;top:0;z-index: 999;
-    background: url(../images/index/bodybg.jpg) repeat-x center center/cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/bodybg.jpg) repeat-x center center/cover;
     overflow: hidden;--dawidth:-19.2rem;
     /*animation: sp-repeat 6s linear infinite;*/
 }
@@ -41,9 +41,10 @@
 }
 .sp-text{
     width:50%;margin:.8rem auto 0;color:#fff;font-size: .02rem;text-indent: .4rem;
+    line-height: .26rem;letter-spacing: 0.01rem;
 }
 .sp-text span{
-    font-size: .18rem;line-height: .26rem;letter-spacing: 1px;
+    font-size: .18rem;
 }
 .sp-work{
     position: absolute;left:0;top:0;z-index: 1000;
@@ -92,7 +93,7 @@
 /*闪屏btn*/
 #sp-btn{
     width:.5rem;height:.5rem;position: absolute;left: calc(50% - .32rem);right:calc(50% - .5rem);bottom:1rem;margin: auto;
-    background: url(../images/index/btn.png) no-repeat center center/cover;cursor: pointer;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/btn.png) no-repeat center center/cover;cursor: pointer;
     animation-fill-mode:both;
 }
 #sp-btn:hover{
@@ -109,7 +110,7 @@
 }
 /*左上角logo----------------------------------------------------*/
 .logo{
-    background: url(../images/index/zz.png) no-repeat;z-index: 100;position: fixed;top:1.5%;left:.1rem;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/zz.png) no-repeat;z-index: 100;position: fixed;top:1.5%;left:.1rem;
     width:1.34rem;height:1.54rem;transition: all 2s ease;transform:translateY(-1rem) rotate(30deg);
     background-size: 100%;animation: left-img 1s linear infinite alternate;
     transform-origin: left top;
@@ -212,22 +213,22 @@
     overflow: hidden;width:100%;height:100%;position: relative;
 }
 #fullpage .full-1{
-    background: url(../images/page1/index1.png) no-repeat center center/cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/index1.png) no-repeat center center/cover;
 }
 #fullpage .full-2{
-    background: url(../images/index/index7.jpg) no-repeat center center/cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/index7.jpg) no-repeat center center/cover;
 }
 #fullpage .full-3{
-    background: url(../images/index/index10.jpg) no-repeat center center/100% 100%;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/index10.jpg) no-repeat center center/100% 100%;
 }
 #fullpage .full-4{
-    background: url(../images/index/index5.jpg) no-repeat center center/cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/index5.jpg) no-repeat center center/cover;
 }
 #fullpage .full-5{
-    background: url(../images/index/index6.jpeg) no-repeat center center/cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/index6.jpeg) no-repeat center center/cover;
 }
 #fullpage .full-6{
-    background: url(../images/index/index2.jpg) no-repeat center center/cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/index2.jpg) no-repeat center center/cover;
     perspective: 5rem;
 }
 
@@ -241,31 +242,31 @@
     background-size: 100%;
 }
 .sec1-left{
-    background: url(../images/page1/4.png) no-repeat center center;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/4.png) no-repeat center center;
     left:-99rem;top:-99rem;
 }
 .sec1-right{
-    background: url(../images/page1/2.png) no-repeat center center;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/2.png) no-repeat center center;
     right:-99rem;top:-99rem;
 }
 .sec1-top{
-    background: url(../images/page1/3.png) no-repeat center center;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/3.png) no-repeat center center;
     left:-99rem;bottom:-99rem;
 }
 .sec1-bottom{
-    background: url(../images/page1/1.png) no-repeat center center;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/1.png) no-repeat center center;
     right:-99rem;bottom:-99rem;
 }
 .sec1-content{
     height:100%;width:100%;position: relative;margin:0 auto 0;
 }
-/*改动*/
+/*改动h1文字*/
 .sec1-content>.sec1-ulone{
     width:80%;height:80%;
     position: absolute;left:0;top:0;right:0;bottom:0;margin: auto;
 }
 .sec1-content>.sec1-ulone h1{
-    font-size: .2rem;margin:1rem auto 0;text-align: center;opacity: 0;
+    font-size: .2rem;margin:.5rem auto 0;text-align: center;opacity: 0;
     font-weight: 400;
 }
 .sec1-content>.sec1-ulone li{
@@ -274,7 +275,7 @@
 }
 .sec1-content>.sec1-ulone li img{
     width:100%;height:100%;position: absolute;
-    left:0;top:0;right:0;bottom:0;margin: auto;
+    left:0;top:0;right:0;bottom:0;margin: auto;border-radius: 50%;
 }
 /*圆圈*/
 .sec1-ultwo{
@@ -307,8 +308,8 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 750px){
     .ultwo-one li{
-        width:1.1rem;height:1.1rem;top:0;left:calc(50% - .55rem);
-        transform-origin: center 3rem;
+        width:1.1rem;height:1.1rem;top:0.4rem;left:calc(50% - .55rem);
+        transform-origin: center 2.6rem;
     }
 }
 .ultwo-one li img{
@@ -343,15 +344,16 @@
 /*}*/
 /*圆圈文字*/
 .ultwo-two{
-    width:2.6rem;height:2.6rem;
+    width:2.4rem;height:2.4rem;
     position: absolute;left:0;top:0;right:0;bottom:0;margin: auto;
     border-radius: 50%;overflow: hidden;
 }
 .ultwo-two li{
     font-size: .18rem;width:100%;height:100%;position: absolute;
     left:0;top:0;text-align: center;
-    background: url(../images/index/11.jpeg) no-repeat center center/cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/11.jpeg) no-repeat center center/cover;
     transform: scale(0);transition: all .3s ease;
+    border-radius: 50%;overflow: hidden;
 }
 .ultwo-two li p{
     font-size: .2rem;text-align: center;color:#6435d1;margin: 26% auto 3%;
@@ -368,7 +370,7 @@
 }
 .clip-p{
     position: absolute;left:0;top:0;
-    background: url(../images/index/zhusir.jpg) repeat-x center center/100%;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/zhusir.jpg) repeat-x center center/100%;
     width:100%;height:100%;
     font-size: .5rem;text-align: center;line-height: 3.5rem;
     -webkit-background-clip: text;
@@ -406,7 +408,7 @@
 .s3-ul{
     width:22%;height:1.8rem;position: relative;
     float:left;margin-right: 4%;margin-bottom: .2rem;
-    border:1px solid #fff;box-sizing: border-box;
+    border:0.005rem solid #000;box-sizing: border-box;
 }
 .sec3-box .s3-ul:nth-child(4n){
     margin-right: 0;
@@ -451,15 +453,15 @@
     .s3-ul{margin-bottom: .4rem;}
 }
 @media only screen and (min-width: 300px) and (max-width: 800px){
-    .sec3-box{overflow-y: scroll;width:70%;}
+    .sec3-box{overflow-y: scroll;width:60%;}
     .s3-ul{
-        width:100%;float: none;margin:0 auto .3rem;height:2rem;
+        width:100%;float: none;margin:0 auto .3rem;height:1.4rem;
     }
     .sec3-box .s3-ul:nth-child(4n){
         margin-right: auto!important;
     }
     .s3-ul li p{
-        margin:.4rem auto .2rem;
+        margin:.2rem auto .1rem;
     }
     .s3-ul li a{
         width:2rem;
@@ -486,7 +488,7 @@
 /*第四屏*/
 .phone-box{
     width:3.55rem;height:5rem;position: absolute;right:-20rem;top:calc(50% - 1.2rem);
-    background: url(../images/page4/shoujimoxing.png) no-repeat center center/cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/shoujimoxing.png) no-repeat center center/cover;
     transition: all .5s ease-in;display: block;
 }
 .phone-box>img{
@@ -515,7 +517,7 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 750px){
     .index-box{
-        left:-1.2rem;bottom:25%;
+        left:-1.8rem;bottom:20%;
     }
 }
 .index-box .index-ul{
@@ -609,20 +611,20 @@
     position: absolute;left:0;top:0;
 }
 .sec-position li:nth-child(1){
-    background: url(../images/index/position2.png) no-repeat;background-size: cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/position2.png) no-repeat;background-size: cover;
     background-position-x: 0;
 }
 .sec-position li:nth-child(2){
-    background: url(../images/index/position2.png) no-repeat;background-size: cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/position2.png) no-repeat;background-size: cover;
     /*animation: position2 4s linear 0s infinite;*/
     background-position-x: -3.0875rem;
 }
 .sec-position li:nth-child(3){
-    background: url(../images/index/position2.png) no-repeat;background-size: cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/position2.png) no-repeat;background-size: cover;
     background-position-x: -6.275rem;
 }
 .sec-position li:nth-child(4){
-    background: url(../images/index/position2.png) no-repeat;background-size: cover;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/position2.png) no-repeat;background-size: cover;
     background-position-x: -9.4rem;
 }
 .sec6-box{
@@ -630,9 +632,9 @@
     animation-fill-mode: forwards;
 }
 @keyframes position1 {
-    0%{left:0;top:0;transform: scale(0);}
-    5%{left:5%;top:10%;transform: scale(0.8);}
-    10%{left:15%;top:10%;transform: scale(1);}
+    0%{left:0;top:5%;transform: scale(0);}
+    5%{left:5%;top:15%;transform: scale(0.8);}
+    10%{left:15%;top:20%;transform: scale(1);}
     20%{left:30%;top:30%;transform: scale(1);}
     30%{left:20%;top:50%;}
     40%{left:5%;top:calc(60% - 3rem);}
@@ -648,7 +650,7 @@
 .sec-6-div {
     width:6rem;height:60%;position: absolute;
     left:0;top:8%;right:0;bottom:0;margin: auto;
-    background: url(../images/page6/sec6bg1.png) no-repeat center center/100% 100%;
+    background: url(http://1.tthunbohui.cn/zhuanti/9320/sec6bg1.png) no-repeat center center/100% 100%;
     transform-origin: bottom;transform: rotateX(93deg) scale(0);
     transition: all 1s ease-in 0s;
     transform-style: preserve-3d;
@@ -663,10 +665,6 @@
     width:80%;height:.4rem;font-size: .2rem;color:#fff;
     border:1px solid #a9a9a9;border-radius: .05rem;
     margin:0 auto .2rem;position: relative;
-}
-@media screen and (min-width: 1366px) and (max-width: 1920px) {
-    #form6{margin:.5rem auto 0;}
-    #form6>div{margin-bottom: .08rem;}
 }
 #form6>.form-div1{
     margin:0.2rem  auto .2rem;
@@ -701,3 +699,11 @@
     display: none;
 }
 
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+    #form6{margin:.5rem auto 0;}
+    #form6>div{margin-bottom: .08rem;}
+}
+@media screen and (min-width: 300px) and (max-width: 750px) {
+    .sec-6-div{width:70%;}
+    #form6>.form-div6{height:1.2rem;}
+}
