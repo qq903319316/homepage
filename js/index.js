@@ -1,5 +1,40 @@
-// 也许还能在网上看到你的消息
 $(function(){
+    //判断是pc还是手机
+    function isMobile() {
+        var sUserAgent = navigator.userAgent.toLowerCase(),
+            bIsIpad = sUserAgent.match(/ipad/i) == "ipad",
+            bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os",
+            bIsMidp = sUserAgent.match(/midp/i) == "midp",
+            bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4",
+            bIsUc = sUserAgent.match(/ucweb/i) == "ucweb",
+            bIsAndroid = sUserAgent.match(/android/i) == "android",
+            bIsCE = sUserAgent.match(/windows ce/i) == "windows ce",
+            bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile",
+            bIsWebview = sUserAgent.match(/webview/i) == "webview";
+        if((bIsAndroid||bIsIphoneOs)==true){
+            $(".zhu-tops li:nth-child(1) a").text("简介嘿");
+            $(".zhu-tops li:nth-child(2) a").text("技能嘿");
+            $(".zhu-tops li:nth-child(3) a").text("作品嘿");
+            $(".zhu-tops li:nth-child(4) a").text("移动端");
+            $(".zhu-tops li:nth-child(5) a").text("轮播图");
+            $(".zhu-tops li:nth-child(6) a").text("结尾页");
+        }else{
+            $(".zhu-tops li:nth-child(1) a").text("个人简述");
+            $(".zhu-tops li:nth-child(2) a").text("薄技在身");
+            $(".zhu-tops li:nth-child(3) a").text("即兴之作");
+            $(".zhu-tops li:nth-child(4) a").text("手机终端");
+            $(".zhu-tops li:nth-child(5) a").text("落笔成蝇");
+            $(".zhu-tops li:nth-child(6) a").text("信而有征");
+        }
+        return (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM);
+    }(isMobile());
+
+    //$(window).resize(function(){
+    //    if(screen.width<=640){
+    //
+    //    }
+    //});
+
 
     //    第一屏hover
     $(".ultwo-one li").hover(function(){
@@ -9,29 +44,6 @@ $(function(){
         var index=$(this).index();
         $(".ultwo-two li").eq(index).css({transform:"scale(0)"});
     });
-    $(window).resize(function(){
-        //    判断屏幕分辨率
-        function screenwidth(){
-            if (screen.width <= 640){
-                //console.log("现在是小于640");
-                $(".zhu-tops li:nth-child(1) a").text("简介嘿");
-                $(".zhu-tops li:nth-child(2) a").text("技能嘿");
-                $(".zhu-tops li:nth-child(3) a").text("作品嘿");
-                $(".zhu-tops li:nth-child(4) a").text("移动端");
-                $(".zhu-tops li:nth-child(5) a").text("轮播图");
-                $(".zhu-tops li:nth-child(6) a").text("结尾页");
-            }else {
-                //console.log("现在是大于640");
-                $(".zhu-tops li:nth-child(1) a").text("个人简述");
-                $(".zhu-tops li:nth-child(2) a").text("薄技在身");
-                $(".zhu-tops li:nth-child(3) a").text("即兴之作");
-                $(".zhu-tops li:nth-child(4) a").text("手机终端");
-                $(".zhu-tops li:nth-child(5) a").text("落笔成蝇");
-                $(".zhu-tops li:nth-child(6) a").text("信而有征");
-            }
-        }(screenwidth());
-    });
-
 
     // 鼠标跟随样式
     function shu_biao(){
@@ -70,7 +82,7 @@ $(function(){
     }(shu_biao());
     // 文字突突突的出现
     $(".sp-text").lbyl({
-        content: "\<p\>假如人生不曾相遇，我还是那个我，偶尔做做梦，然后，开始日复一日的奔波，淹没在这喧嚣的城市里。 我不会了解，这个世界还有这样的一个你，只有你能让人回味，也只有你会让我心醉。 假如人生不曾相遇，我不会相信，有一种人可以百看不厌，有一种人一认识就觉得温馨。\</p\>",
+        content: "\<p\>假如人生不曾相遇，我还是那个我，偶尔做做梦，然后，开始日复一日的奔波，淹没在这喧嚣的城市里。我不会了解，这个世界还有这样的一个你，只有你能让人回味，也只有你会让我心醉。假如人生不曾相遇，我不会相信，有一种人可以百看不厌，有一种人一认识就觉得温馨。\<\/p\>",
         speed: 80,
         type: 'show',
         finished: function(){
@@ -105,7 +117,7 @@ $(function(){
                 $(this).hide();
             });
             $(".sp-work>ul").animate({left:"0"},400,function(){
-                $(this).animate({height:"90%"},500);
+                $(this).animate({height:"92%"},500);
             });
 
         });
