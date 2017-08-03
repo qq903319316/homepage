@@ -31,7 +31,7 @@
 /*闪屏页开始----------------*/
 .sping-box{
     width:100%;height:100%;position: absolute;left:0;top:0;z-index: 999;
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/bodybg.jpg) repeat-x center center/cover;
+    background: url(../images/index/bodybg.jpg) repeat-x center center/cover;
     overflow: hidden;--dawidth:-19.2rem;
     /*animation: sp-repeat 6s linear infinite;*/
 }
@@ -94,7 +94,7 @@
 /*闪屏btn*/
 #sp-btn{
     width:.5rem;height:.5rem;position: absolute;left: calc(50% - .32rem);right:calc(50% - .5rem);bottom:1rem;margin: auto;
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/btn.png) no-repeat center center/cover;cursor: pointer;
+    background: url(../images/index/btn.png) no-repeat center center/cover;cursor: pointer;
     animation-fill-mode:both;
 }
 #sp-btn:hover{
@@ -111,7 +111,7 @@
 }
 /*左上角logo----------------------------------------------------*/
 .logo{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/zz.png) no-repeat;z-index: 100;position: fixed;top:1.5%;left:.1rem;
+    background: url(../images/index/zz.png) no-repeat;z-index: 100;position: fixed;top:1.5%;left:.1rem;
     width:1.34rem;height:1.54rem;transition: all 2s ease;transform:translateY(-1rem) rotate(30deg);
     background-size: 100%;animation: left-img 1s linear infinite alternate;
     transform-origin: left top;
@@ -214,22 +214,22 @@
     overflow: hidden;width:100%;height:100%;position: relative;
 }
 #fullpage .full-1{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/index1.png) no-repeat center center/cover;
+    background: url(../images/page1/index1.png) no-repeat center center/cover;
 }
 #fullpage .full-2{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/index7.jpg) no-repeat center center/cover;
+    background: url(../images/index/index7.jpg) no-repeat center center/cover;
 }
 #fullpage .full-3{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/index10.jpg) no-repeat center center/100% 100%;
+    background: url(../images/index/index10.jpg) no-repeat center center/100% 100%;
 }
 #fullpage .full-4{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/index5.jpg) no-repeat center center/cover;
+    background: url(../images/index/index5.jpg) no-repeat center center/cover;
 }
 #fullpage .full-5{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/index6.jpeg) no-repeat center center/cover;
+    background: url(../images/index/index6.jpeg) no-repeat center center/cover;
 }
 #fullpage .full-6{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/index2.jpg) no-repeat center center/cover;
+    background: url(../images/index/index2.jpg) no-repeat center center/cover;
     perspective: 5rem;
 }
 
@@ -243,19 +243,19 @@
     background-size: 100%;
 }
 .sec1-left{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/4.png) no-repeat center center;
+    background: url(../images/page1/4.png) no-repeat center center;
     left:-99rem;top:-99rem;
 }
 .sec1-right{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/2.png) no-repeat center center;
+    background: url(../images/page1/2.png) no-repeat center center;
     right:-99rem;top:-99rem;
 }
 .sec1-top{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/3.png) no-repeat center center;
+    background: url(../images/page1/3.png) no-repeat center center;
     left:-99rem;bottom:-99rem;
 }
 .sec1-bottom{
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/1.png) no-repeat center center;
+    background: url(../images/page1/1.png) no-repeat center center;
     right:-99rem;bottom:-99rem;
 }
 .sec1-content{
@@ -352,7 +352,7 @@
 .ultwo-two li{
     font-size: .18rem;width:100%;height:100%;position: absolute;
     left:0;top:0;text-align: center;
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/11.jpeg) no-repeat center center/cover;
+    background: url(../images/index/11.jpeg) no-repeat center center/cover;
     transform: scale(0);transition: all .3s ease;
     border-radius: 50%;overflow: hidden;
 }
@@ -371,7 +371,7 @@
 }
 .clip-p{
     position: absolute;left:0;top:0;
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/zhusir.jpg) repeat-x center center/100%;
+    background: url(../images/index/zhusir.jpg) repeat-x center center/100%;
     width:100%;height:100%;
     font-size: .5rem;text-align: center;line-height: 3.5rem;
     -webkit-background-clip: text;
@@ -489,7 +489,7 @@
 /*第四屏*/
 .phone-box{
     width:3.55rem;height:5rem;position: absolute;right:-20rem;top:calc(50% - 1.2rem);
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/shoujimoxing.png) no-repeat center center/cover;
+    background: url(../images/page4/shoujimoxing.png) no-repeat center center/cover;
     transition: all .5s ease-in;display: block;
 }
 .phone-box>img{
@@ -612,20 +612,20 @@
     position: absolute;left:0;top:0;
 }
 .sec-position li:nth-child(1){
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/position2.png) no-repeat;background-size: cover;
+    background: url(../images/index/position2.png) no-repeat;background-size: cover;
     background-position-x: 0;
 }
 .sec-position li:nth-child(2){
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/position2.png) no-repeat;background-size: cover;
+    background: url(../images/index/position2.png) no-repeat;background-size: cover;
     /*animation: position2 4s linear 0s infinite;*/
     background-position-x: -3.0875rem;
 }
 .sec-position li:nth-child(3){
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/position2.png) no-repeat;background-size: cover;
+    background: url(../images/index/position2.png) no-repeat;background-size: cover;
     background-position-x: -6.275rem;
 }
 .sec-position li:nth-child(4){
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/position2.png) no-repeat;background-size: cover;
+    background: url(../images/index/position2.png) no-repeat;background-size: cover;
     background-position-x: -9.4rem;
 }
 .sec6-box{
@@ -651,7 +651,7 @@
 .sec-6-div {
     width:6rem;height:60%;position: absolute;
     left:0;top:8%;right:0;bottom:0;margin: auto;
-    background: url(http://1.tthunbohui.cn/zhuanti/9320/sec6bg1.png) no-repeat center center/100% 100%;
+    background: url(../images/page6/sec6bg1.png) no-repeat center center/100% 100%;
     transform-origin: bottom;transform: rotateX(93deg) scale(0);
     transition: all 1s ease-in 0s;
     transform-style: preserve-3d;
