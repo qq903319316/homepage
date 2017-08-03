@@ -40,11 +40,11 @@
     100%{background-position-x: 1000rem;}
 }
 .sp-text{
-    width:50%;margin:.8rem auto 0;color:#fff;font-size: .18rem;text-indent: .3rem;
+    width:50%;margin:.8rem auto 0;color:#fff;
     height:20%;background: red;
 }
 .sp-text span{
-    font-size: .18rem;line-height: .26rem;
+    font-size: .18rem;line-height: .26rem; white-space:normal;
 }
 /*.sp-text span:nth-child(1){*/
     /*margin-left: .2rem;*/
