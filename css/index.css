@@ -40,15 +40,15 @@
     100%{background-position-x: 1000rem;}
 }
 .sp-text{
-    width:50%;margin:.8rem auto 0;color:#fff;
-    height:20%;background: red;
+    width:50%;margin:.8rem auto 0;color:#fff;font-size: .18rem;
+    height:20%;
 }
 .sp-text span{
-    font-size: .18rem;line-height: .26rem; white-space:normal;
+    font-size: .18rem;line-height: .28rem;display: block;float:left;
 }
-/*.sp-text span:nth-child(1){*/
-    /*margin-left: .2rem;*/
-/*}*/
+.sp-text span:nth-child(1){
+    text-indent: .3rem;
+}
 /*.sp-text span:nth-child(1),.sp-text span:nth-child(2),.sp-text span:nth-child(3)*/
 /*,.sp-text span:nth-last-child(1),.sp-text span:nth-last-child(2),.sp-text span:nth-last-child(3)*/
 /*,.sp-text span:nth-last-child(4){*/
