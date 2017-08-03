@@ -16,7 +16,7 @@ $(function(){
             $(".zhu-tops li:nth-child(2) a").text("技能嘿");
             $(".zhu-tops li:nth-child(3) a").text("作品嘿");
             $(".zhu-tops li:nth-child(4) a").text("移动端");
-            $(".zhu-tops li:nth-child(5) a").text("轮播图");
+            $(".zhu-tops li:nth-child(5) a").text("白开水");
             $(".zhu-tops li:nth-child(6) a").text("结尾页");
         }else{
             $(".zhu-tops li:nth-child(1) a").text("个人简述");
@@ -231,7 +231,7 @@ $(function(){
                     $(".zhu-tops li a").eq(index-1).addClass("nav-a").parent().siblings().find("a").removeClass("nav-a");
                     $(".zy-menu li a").css({color:"#fff"});
                 }else if(index==4){
-                    $(".phone-box").css({right:"calc(50% - 2rem)"});
+                    $(".phone-box").css({right:"calc(50% - 1.85rem)"});
                     $(".zhu-tops li a").eq(index-1).addClass("nav-a").parent().siblings().find("a").removeClass("nav-a");
                     $(".zy-menu li a").css({color:"#000"});
                 }else if(index==5){

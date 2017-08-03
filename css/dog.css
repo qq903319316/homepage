@@ -174,12 +174,12 @@
     /*background: url(../images/dogbg.png) no-repeat center center/cover;*/
 }
 .dog-title{
-    width:88%;height:90%;position: absolute;color:#eee;font-size: 0.14rem;
+    width:90%;height:90%;position: absolute;color:#eee;font-size: 0.14rem;
     left:0;top:0.25rem;right:0;bottom:0;margin:auto;line-height: 0.2rem;
-    background: green;overflow: hidden;
+    overflow: hidden;
 }
 .dog-title span{
-    font-size: 0.14rem;line-height: 0.2rem;
+    font-size: 0.14rem;line-height: 0.28rem;display: block;float:left;letter-spacing: .01rem;
 }
 
 /*灏惧反*/
